@@ -3,20 +3,22 @@
 
 Relationships:
 
-A __STUDENT__ can fill One and Only One __SEAT__.
+A __STUDENT__ can <ins>fill</ins> One and Only One __SEAT__.
 A __SEAT__ can be <ins>filled</ins> by ONE and Only One __STUDENT__.
 
-A __STUDENT__ Takes One or Many __COURSE__.
-A __COURSE can be taken by One or More __STUDENT__.
+A __STUDENT__ can <ins>take</ins> One or Many __COURSE__.
+A __COURSE can be <ins>taken</ins> by One or Many __STUDENT__.
 
-An __INSTRUCTURE__ can teach One or Many __COURSE__.
-A __COURSE__ is though by One and Only One __INSTRUCTURE__.
+An __INSTRUCTURE__ can <ins>teach</ins> One or Many __COURSE__.
+A __COURSE__ is  <ins>teached</ins> by One and Only One __INSTRUCTURE__.
 
-A __COURSE__ has One or Many __SECTION__.
-A __SECTION__ has One or Many __COURSE__.
+A __COURSE__ can <ins>have</ins> One or Many __SECTION__.
+A __SECTION__can <ins>have</ins> One or Many __COURSE__.
 
-A __SECTION__ is thought by One and Only One __PROFESSOR__.
-A __PROFESSOR__ can teach ZERO to Many __SECTION__
+A __SECTION__can be <ins>teached</ins> by One and Only One __PROFESSOR__.
+A __PROFESSOR__ can <ins>teach</ins> ZERO to Many __SECTION__
 
+
+ <
 
 
