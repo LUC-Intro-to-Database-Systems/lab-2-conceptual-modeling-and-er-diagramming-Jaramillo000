@@ -13,7 +13,7 @@ An __INSTRUCTURE__ can <ins>teach</ins> One or Many __COURSE__.
 A __COURSE__ is  <ins>teached</ins> by One and Only One __INSTRUCTURE__.
 
 A __COURSE__ can <ins>have</ins> One or Many __SECTION__.
-A __SECTION__can <ins>have</ins> One or Many __COURSE__.
+A __SECTION__ can <ins>have</ins> One or Many __COURSE__.
 
 A __SECTION__ can be <ins>teached</ins> by One and Only One __PROFESSOR__.
 A __PROFESSOR__ can <ins>teach</ins> ZERO to Many __SECTION__
