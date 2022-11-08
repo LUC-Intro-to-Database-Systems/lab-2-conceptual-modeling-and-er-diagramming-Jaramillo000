@@ -54,3 +54,34 @@ Once you have completed both of the items above, you will need to submit the lin
 - [Make a ReadMe file Web-based Editor](https://www.makeareadme.com/)
 - [Draw.io Web-based diagramming tool](https://app.diagrams.net/)
 - [Creating Entity Relationship Diagrams using Draw.io](https://www.youtube.com/watch?v=lAtCySGDD48)
+
+
+
+
+Relationships:
+
+A __STUDENT__ can <ins>fill</ins> One and Only One __SEAT__.
+A __SEAT__ can be <ins>filled</ins> by ONE and Only One __STUDENT__.
+
+A __STUDENT__ can <ins>take</ins> One or Many __COURSE__.
+A __COURSE__ can be <ins>taken</ins> by One or Many __STUDENT__.
+
+An __INSTRUCTOR__ can <ins>teach</ins> One or Many __COURSE__.
+A __COURSE__ is  <ins>teached</ins> by One and Only One __INSTRUCTOR__.
+
+A __COURSE__ can <ins>have</ins> One or Many __SECTION__.
+A __SECTION__ can <ins>have</ins> One or Many __COURSE__.
+
+A __SECTION__ can be <ins>teached</ins> by One and Only One __PROFESSOR__.
+A __PROFESSOR__ can <ins>teach</ins> ZERO to Many __SECTION__
+
+
+ Assumptions:
+ 
+ Can a student have multiple seats? NO
+ Can a 
+
+
+![image](https://user-images.githubusercontent.com/117416929/200690599-544224c4-e1a5-4fb0-8778-ecf129a9de69.png)
+
+
