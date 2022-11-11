@@ -56,24 +56,25 @@ Once you have completed both of the items above, you will need to submit the lin
 - [Creating Entity Relationship Diagrams using Draw.io](https://www.youtube.com/watch?v=lAtCySGDD48)
 
 
+ENTITY DISCIPTION:
 
 
 Relationships:
 
-A __STUDENT__ can <ins>fill</ins> One and Only One __SEAT__.
-A __SEAT__ can be <ins>filled</ins> by ONE and Only One __STUDENT__.
+A __STUDENT__ can <ins>fill</ins> One and Only One __SEAT__, A __SEAT__ can be <ins>filled</ins> by ONE and Only One __STUDENT__.
 
-A __STUDENT__ can <ins>take</ins> One or Many __COURSE__.
-A __COURSE__ can be <ins>taken</ins> by One or Many __STUDENT__.
+A __STUDENT__ can <ins>take</ins> One or Many __COURSE_LIST__, Each __COURSE_LIST__ can be <ins>taken</ins> by one and only one __STUDENT__
 
-An __INSTRUCTOR__ can <ins>teach</ins> One or Many __COURSE__.
-A __COURSE__ is  <ins>teached</ins> by One and Only One __INSTRUCTOR__.
+A __COURSE__ can <ins>associate</ins> with One or Many __COURSE_LIST__, Each __COURSE_LIST__ is <ins>associated</ins> with one and only one __COURSE__.
 
-A __COURSE__ can <ins>have</ins> One or Many __SECTION__.
-A __SECTION__ can <ins>have</ins> One or Many __COURSE__.
 
-A __SECTION__ can be <ins>teached</ins> by One and Only One __PROFESSOR__.
-A __PROFESSOR__ can <ins>teach</ins> ZERO to Many __SECTION__
+An __INSTRUCTOR__ can <ins>teach</ins> One or Many __COURSE__,A __COURSE__ is  <ins>teached</ins> by One and Only One __INSTRUCTOR__.
+
+A __COURSE__ can <ins>have</ins> One or Many __SECTION__, A __SECTION__ can <ins>have</ins> One or Many __COURSE__.
+
+A __SECTION__ can be <ins>teached</ins> by One and Only One __PROFESSOR__, A __PROFESSOR__ can <ins>teach</ins> ZERO to Many __SECTION__
+
+
 
 
  Assumptions:
