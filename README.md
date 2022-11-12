@@ -94,8 +94,8 @@ A __SECTION__ can be <ins>teached</ins> by One and Only One __PROFESSOR__, A __P
 
  Assumptions:
  
-Can a student have multiple seats in a class? NO, Each student has its own number and takes up one seat from a class
-Can a student have zero courses? N0
+Can a student have multiple seats in a class? NO, each student has its own number and takes up one seat from a class
+Can a student have zero courses? No
 
 
 
