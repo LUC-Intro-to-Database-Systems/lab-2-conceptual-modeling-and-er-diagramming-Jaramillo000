@@ -55,6 +55,22 @@ Once you have completed both of the items above, you will need to submit the lin
 - [Draw.io Web-based diagramming tool](https://app.diagrams.net/)
 - [Creating Entity Relationship Diagrams using Draw.io](https://www.youtube.com/watch?v=lAtCySGDD48)
 
+ENTITY DESCRIPTION:
+
+STUDENT: A student is an individual that is associated with SEAT, CLASS and COURSE. A students consist of student id, student name and student address.
+
+SEAT: A seat is associated with one STUDENT. A seat consists of SEAT number and seat position.
+
+CLASS: A class is associated with STUDENT and COURSE. A Class consist of student id and course name.
+
+INSTRUCTOR: An instructor is associated with COURSE. An INSTRUCTOR consists of instructor number, instructor name and instructor faculty.
+
+COURSE: A COURSE is associated with COURSE_LIST and SECTION list. A COURSE consists of course name and course name.
+
+SECTION: Section is associated with SECTION LIST  and SECTION. A SECTION consists of Section number.
+
+PROFESSOR: is associated with SECTION. A PROFESSOR consists of professor id, professor name and professor faculty.
+
 
 ENTITY DISCIPTION:
 
@@ -67,8 +83,7 @@ A __STUDENT__ can <ins>take</ins> One or Many __COURSE_LIST__, Each __COURSE_LIS
 
 A __COURSE__ can <ins>associate</ins> with One or Many __COURSE_LIST__, Each __COURSE_LIST__ is <ins>associated</ins> with one and only one __COURSE__.
 
-
-An __INSTRUCTOR__ can <ins>teach</ins> One or Many __COURSE__,A __COURSE__ is  <ins>teached</ins> by One and Only One __INSTRUCTOR__.
+An __INSTRUCTOR__ can <ins>teach</ins> One or Many __COURSE__, A __COURSE__ is  <ins>teached</ins> by One and Only One __INSTRUCTOR__.
 
 A __COURSE__ can <ins>have</ins> One or Many __SECTION__, A __SECTION__ can <ins>have</ins> One or Many __COURSE__.
 
@@ -79,10 +94,12 @@ A __SECTION__ can be <ins>teached</ins> by One and Only One __PROFESSOR__, A __P
 
  Assumptions:
  
- Can a student have multiple seats? NO
- Can a 
+Can a student have multiple seats ins a class? NO, Each student has its own number and takes up one seat from a class
+Can a student have zero courses? N0
 
 
-![image](https://user-images.githubusercontent.com/117416929/200690599-544224c4-e1a5-4fb0-8778-ecf129a9de69.png)
+
+
+![image](https://user-images.githubusercontent.com/117416929/201451976-4937d80d-8b97-48de-8f36-4aa95bc1d5c5.png)
 
 
